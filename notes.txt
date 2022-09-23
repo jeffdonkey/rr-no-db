@@ -3,4 +3,8 @@ Started by doing generic express framework set-up
 
 CREATING A .gitignore FILE:
 This setup will create parameter by which some files will not
-be saved to GitHub. See the file namec ".gitignore".
+be saved to GitHub. See the file name ".gitignore".
+
+WILDCARD ROUTE
+this is made to deliver 404 error to user when needed.  
+It is important that this route is at the end of all other routes
