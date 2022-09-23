@@ -1,0 +1,6 @@
+Started by doing generic express framework set-up
+(see my first-express-app folder)
+
+CREATING A .gitignore FILE:
+This setup will create parameter by which some files will not
+be saved to GitHub. See the file namec ".gitignore".
