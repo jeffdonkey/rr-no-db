@@ -18,6 +18,7 @@ REST-Rant is an app where users can review restaurants.
 |GET|*|404 page (matches any rounte not defined above|)
 
 ## Data Names and Types
+
 -name (string)
 -city (string)
 -state (string)
