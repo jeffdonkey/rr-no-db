@@ -12,8 +12,6 @@ app.get('/', function (req, res){
     res.render('home')
 })
 
-app.get('*', (req,res) => {
-    res.render('error404')
-})
+
 
 app.listen(process.env.PORT)
