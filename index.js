@@ -17,6 +17,10 @@ app.get('/', function (req, res){
     res.render('home')
 })
 
+app.get('*', (req, res) => {
+    res.render('error404')
+})
+
 
 // Listen for Connections
 app.listen(process.env.PORT)

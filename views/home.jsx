@@ -8,6 +8,12 @@ function home() {
         <Def>
             <main>
                 <h1>HOME</h1>
+                <div>
+                    <img src="/images/fruitcup.jpg" alt="fruit cup" />
+                    <div>
+                        Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK"></a>
+                    </div>
+                </div>
                 <a href="/places">
                     <button className="btn-primary">Places Page</button>
                 </a>
