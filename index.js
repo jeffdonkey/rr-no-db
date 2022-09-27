@@ -8,7 +8,10 @@ const app = express()
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
-app.use(express.static('public'))
+//line below altered in Part 5.5
+//creates "body parser"
+// original line = app.use(express.static('public'))
+app.use(express.urlencoded({ extended: true}))
 
 // Controllers & Routes
 app.use('/places', require('./controllers/places'))
