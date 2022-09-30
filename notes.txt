@@ -8,3 +8,24 @@ be saved to GitHub. See the file name ".gitignore".
 WILDCARD ROUTE
 this is made to deliver 404 error to user when needed.  
 It is important that this route is at the end of all other routes
+
+
+code snippet for part 6.3
+function show(data) {
+    return (
+        <Def>
+            <main>
+                <h1>{ data.place.name }</h1>
+                <img src={data.place.pic} alt={data.place.name} />
+                <div>
+                    <h4>Rating</h4>
+                    <p>No Ratings</p>
+                </div>
+                <div>
+                    <h4>Comments</h4>
+                    <p>No Comments</p>
+                </div>
+            </main>
+        </Def>
+    )
+}
