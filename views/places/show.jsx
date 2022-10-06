@@ -1,8 +1,6 @@
 const React = require('react')
 const Def = require('../default')
 
-// look in your notes in this project
-// there is some starter code for part 6.3
 
 function show (data) {
     return (

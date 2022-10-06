@@ -13,7 +13,7 @@ router.get('/new', (req, res) => {
 //EDIT get route
 router.get('/:id/edit', (req, res) => {
   let id = Number(req.params.id)
-  console.log("edit get route")
+  // console.log("edit get route")
   if (isNaN(id)) {
     res.render('error404')
   }
@@ -21,7 +21,7 @@ router.get('/:id/edit', (req, res) => {
     res.render('error404')
   }
   else {
-    res.render('places/edit', { place: places[id] })
+    res.render('places/edit', { place: places[id], id })
   }
 })
 
@@ -58,8 +58,8 @@ router.delete('/:id', (req, res) => {
 //UPDATE "complete route".
 router.put('/:id', (req, res) => {
   let id = Number(req.params.id)
-  console.log ('I got to the update route')
-  console.log ("what data did i receive " + id)
+  // console.log ('I got to the update route')
+  // console.log ("what data did i receive " + id)
   if (isNaN(id)) {
     res.render('error404')
   }
